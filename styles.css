@@ -39,7 +39,10 @@ h1 {
     height: 450px;
     background-image: url("Resources/md-salman-tWOz2_EK5EQ-unsplash\ \(1\).jpg");
     padding-top: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 #mission .content {
     margin: auto;
@@ -102,12 +105,14 @@ h5, h4 {
     flex-wrap: wrap;
     justify-content: center;
     background-image: url("Resources/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .teammate {
     padding: 10px;
     flex-basis: 280px;
-    color: slateblue;
+    color: #fff0f5;
 }
 
 .teammate img {
