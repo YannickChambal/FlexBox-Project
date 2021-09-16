@@ -1,0 +1,128 @@
+body {
+    font-family: Kaisei HarunoUmi;
+    margin: 0;
+    color: black;
+    background-color: salmon;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.main {
+    padding-top: 25px;
+
+}
+
+#mission {
+    display: flex;
+    height: 450px;
+    background-image: url("Resources/md-salman-tWOz2_EK5EQ-unsplash\ \(1\).jpg");
+    padding-top: 30px;
+}
+
+#mission .content {
+    margin: auto;
+    width: 100%;
+}
+
+h2, h3 {
+    margin: 0;
+    padding: 10px;
+    font-size: 5rem;
+    width: 100%;
+}
+
+h5, h4 {
+    margin: 0;
+    padding: 10px;
+    font-size: 3rem;
+}
+
+#company-products {
+   min-height: 500px;
+   margin: auto;
+   padding-top: 70px;
+}
+
+.styles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clothing-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+
+.clothing-style img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding: 10px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.clothing-style span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.team {
+    display: flex;
+    padding-top: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("Resources/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg");
+}
+
+.teammate {
+    padding: 10px;
+    flex-basis: 280px;
+    color: slateblue;
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding: 10px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.contact {
+    padding-top: 20px;
+}
+
+.copyright {
+    padding-top: 30px;
+}
